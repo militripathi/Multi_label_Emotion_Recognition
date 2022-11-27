@@ -30,26 +30,12 @@ Refer to our [GoEmotions Model Card](goemotions_model_card.pdf) for recommended
 uses of models built with this data, as well as considerations and limitations
 relating to the GoEmotions data.
 
-## Requirements
 
-See `requirements.txt`
-
-## Setup
-
-Download the pre-trained BERT model from
-[here](https://github.com/google-research/bert) and unzip them inside the
-`bert` directory. In the paper, we use the cased base model.
 
 ## Data
 
-We include our data in the `data` folder. \
+Data in the `data` folder. \
 
-Our raw dataset can be retrieved by running:
-
-```
-wget -P data/full_dataset/ https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_1.csv
-wget -P data/full_dataset/ https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_2.csv
-wget -P data/full_dataset/ https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_3.csv
 ```
 
 Our raw dataset, split into three csv files, includes all annotations as well as metadata on the comments. Each row represents a single rater's annotation for a single example. This file includes the following columns:
@@ -72,11 +58,6 @@ The data we used for training the models includes examples where there is agreem
 3. id of the comment
 
 
-### Visualization
-
-[Here](https://nlp.stanford.edu/~ddemszky/goemotions/tsne.html) you can view a TSNE projection showing a random sample of the data. The plot is generated using PPCA (see scripts below). Each point in the plot represents a single example and the text and the labels are shown on mouse-hover. The color of each point is the weighted average of the RGB values of the those emotions.
-
-
 ## Citation
 
 If you use this code for your publication, please cite the original paper:
@@ -90,9 +71,6 @@ If you use this code for your publication, please cite the original paper:
 }
 ```
 
-## Contact
-
-[Dora Demszky](https://nlp.stanford.edu/~ddemszky/index.html)
 
 ## Disclaimer
 - We are aware that the dataset contains biases and is not representative of global diversity.
