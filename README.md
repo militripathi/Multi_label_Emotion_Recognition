@@ -58,17 +58,9 @@ The data we used for training the models includes examples where there is agreem
 3. id of the comment
 
 
-## Citation
-
-If you use this code for your publication, please cite the original paper:
 
 ```
-@inproceedings{demszky2020goemotions,
- author = {Demszky, Dorottya and Movshovitz-Attias, Dana and Ko, Jeongwoo and Cowen, Alan and Nemade, Gaurav and Ravi, Sujith},
- booktitle = {58th Annual Meeting of the Association for Computational Linguistics (ACL)},
- title = {{GoEmotions: A Dataset of Fine-Grained Emotions}},
- year = {2020}
-}
+
 ```
 
 
@@ -78,53 +70,3 @@ If you use this code for your publication, please cite the original paper:
 - Potential biases in the data include: Inherent biases in Reddit and user base biases, the offensive/vulgar word lists used for data filtering, inherent or unconscious bias in assessment of offensive identity labels, annotators were all native English speakers from India. All these likely affect labelling, precision, and recall for a trained model.
 - The emotion pilot model used for sentiment labeling, was trained on examples reviewed by the research team.
 - Anyone using this dataset should be aware of these limitations of the dataset.
-
-## Dataset Metadata
-The following table is necessary for this dataset to be indexed by search
-engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
-
-<div itemscope itemtype="http://schema.org/Dataset">
-  <table>
-    <tr>
-      <th>property</th>
-      <th>value</th>
-    </tr>
-    <tr>
-      <td>name</td>
-      <td><code itemprop="name">GoEmotions</code></td>
-    </tr>
-    <tr>
-      <td>description</td>
-      <td><code itemprop="description">GoEmotions contains 58k carefully curated Reddit comments labeled for 27 emotion categories or Neutral. The emotion categories are _admiration, amusement, anger, annoyance, approval, caring, confusion, curiosity, desire, disappointment, disapproval, disgust, embarrassment, excitement, fear, gratitude, grief, joy, love, nervousness, optimism, pride, realization, relief, remorse, sadness, surprise_.</code></td>
-    </tr>
-    <tr>
-      <td>sameAs</td>
-      <td><code itemprop="sameAs">https://github.com/google-research/google-research/tree/master/goemotions</code></td>
-    </tr>
-    <tr>
-      <td>citation</td>
-      <td><code itemprop="citation">https://identifiers.org/arxiv:2005.00547</code></td>
-    </tr>
-    <tr>
-      <td>provider</td>
-      <td>
-        <div itemscope="" itemtype="http://schema.org/Organization" itemprop="provider">
-          <table>
-            <tbody><tr>
-              <th>property</th>
-              <th>value</th>
-            </tr>
-            <tr>
-              <td>name</td>
-              <td><code itemprop="name">Google</code></td>
-            </tr>
-            <tr>
-              <td>sameAs</td>
-              <td><code itemprop="sameAs">https://en.wikipedia.org/wiki/Google</code></td>
-            </tr>
-          </tbody></table>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
